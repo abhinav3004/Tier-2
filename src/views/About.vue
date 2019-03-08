@@ -22,7 +22,7 @@
             <router-view/>
         </td>
        <td><b-button variant="success">Modify</b-button></td>
-       <td><b-button v-on:click="alertMsg" variant="danger">Delete</b-button></td>
+       <td><b-button v-on:click="alertMsg()" variant="danger">Delete</b-button></td>
         </tr>
       </tbody>
     </table>
