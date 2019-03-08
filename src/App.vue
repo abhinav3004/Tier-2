@@ -26,8 +26,12 @@
     }
   }
 }
+#creatAccountBtn{
+  margin-left:70%;
+}
 table{
-  align:center;
+  margin-top:10px;
+  margin-left:10%;
   width: 80%;
 }
 
