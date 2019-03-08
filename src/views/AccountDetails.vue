@@ -1,7 +1,7 @@
 <template>
   <div class="about">
-    <h1>Account Details</h1>
-<table style="width:100%">
+    <h1>Account Details</h1><br><br>
+<table style="width:50%">
   <tr>
     <th>Name:</th>
     <td>Bill Gates</td>
@@ -19,7 +19,7 @@
     <td>$1500</td>
   </tr>
 </table>
-
+<br><br><br>
 <table>
 <thead>
         <tr>
@@ -33,8 +33,8 @@
         <tr>
        <td>Abhinav Mishra</td>
        <td> $1100</td>
-       <td><button type="radio">Accept</button> </td>
-       <td><button type="radio">Decline</button> </td>
+       <td><b-button variant="info">Accept</b-button> </td>
+       <td><b-button variant="info">Decline</b-button> </td>
         </tr>
       </tbody>
 </table>

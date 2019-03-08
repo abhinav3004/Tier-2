@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+     <!-- <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link> !-->
     </div>
     <router-view/>
   </div>
@@ -25,5 +25,29 @@
       color: #42b983;
     }
   }
+}
+table{
+  align:center;
+  width: 80%;
+}
+
+tr {
+     background-color: #f5f5f5;
+ }
+ 
+ th {
+     background-color: #afdcc9;
+     color: #424242;
+ }
+ 
+ td {
+     text-align: center;
+}
+ .table tbody tr:hover td,
+ .table tbody tr:hover th {
+     background-color: #d9f1e7;
+ }
+table>thead>tr>th {
+     text-align: center;
 }
 </style>

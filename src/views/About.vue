@@ -1,11 +1,12 @@
 <template>
-  <div class="about">
-    <h1>Tier-2 Home page</h1>
-    <button>Create Account</button>
+  <div>
+    <h1>Customer Accounts List</h1>
+    <b-button variant="info" id="creatAccountBtn">Create Account</b-button>
+    <br><br><br>
     <table>
       <thead>
         <tr>
-          <th>Customer Name</th>
+          <th id="heading">Customer Name</th>
           <th>Account Number</th>
           <th></th>
           <th></th>
@@ -20,13 +21,18 @@
             </div>
             <router-view/>
         </td>
-       <td><button>Modify</button> </td>
-       <td><button>Delete</button></td>
+       <td><b-button variant="success">Modify</b-button></td>
+       <td><b-button v-on:click="alertMsg" variant="danger">Delete</b-button></td>
         </tr>
       </tbody>
     </table>
-  </div>
+     </div>
 
 </template>
+
+
+
+
+
 
   
