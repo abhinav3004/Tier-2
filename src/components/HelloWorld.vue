@@ -34,6 +34,11 @@
 <script>
 export default {
   name: 'HelloWorld',
+  methods: {
+    alertMsg: function (event) {
+      alert('Do you want to delete this Account?');
+    },
+  },
   props: {
     msg: String,
   },
