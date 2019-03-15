@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <div id="nav">
-     <router-link to="/about">Tier2</router-link> |
-      <router-link to="/manager">Tier3</router-link>
+     <!--<router-link to="/about">Tier2</router-link> |
+      <router-link to="/manager">Tier3</router-link>!-->
     </div>
     <router-view/>
   </div>
@@ -35,6 +35,11 @@ table{
   width: 80%;
 }
 
+#employeeTable
+{
+  width: 60%;
+  margin-left:20%;
+}
 tr {
      background-color: #f5f5f5;
  }

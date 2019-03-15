@@ -97,7 +97,7 @@
 var example2 = new Vue({
   el: '#example-2',
   data: {
-   title:'bharti'
+   title:'abhianv'
   }
 })
 </script>!-->

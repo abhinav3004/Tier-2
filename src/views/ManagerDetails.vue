@@ -1,7 +1,7 @@
 <template>
   <div class="manageraccountdetails">
-    <h1>Account Details</h1>
-<table style="width:100%">
+    <h1>Account Details</h1><br>
+<table id="employeeTable">
   <tr>
     <th>Name:</th>
     <td>jimmy clark</td>

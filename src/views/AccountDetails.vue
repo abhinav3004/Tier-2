@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <h1>Account Details</h1><br><br>
-<table style="width:50%">
+<table  style="width:50%">
   <tr>
     <th>Name:</th>
     <td>Abhinav Mishra</td>

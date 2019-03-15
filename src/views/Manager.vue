@@ -1,7 +1,7 @@
 <template>
-  <div class="manager">
-    <h1>Tier-3 Home page</h1>
-    <button>Create Employee Id</button>
+  <div class="manageraccountdetails">
+    <h1>Employee Account Holders</h1>
+    <b-button variant="info" id="creatAccountBtn">Create Employee Id</b-button>
     <table>
       <thead>
         <tr>
@@ -20,8 +20,8 @@
             </div>
             <router-view/>
         </td>
-       <td><button>Modify</button> </td>
-       <td><button>Delete</button></td>
+        <td><b-button variant="success">Modify</b-button></td>
+       <td><b-button variant="danger">Delete</b-button></td>
         </tr>
       </tbody>
     </table>
