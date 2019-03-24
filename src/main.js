@@ -10,9 +10,8 @@ import 'bootstrap-vue/dist/bootstrap-vue.css';
 Vue.use(BootstrapVue);
 Vue.config.productionTip = false;
 
-vm1=new Vue({
+new Vue({
   router,
   store,
   render: h => h(App),
 }).$mount('#app');
-
