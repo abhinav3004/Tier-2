@@ -34,6 +34,11 @@ export default new Router({
       name: 'manager',
       component: () => import(/* webpackChunkName: "about" */ './views/Manager.vue'),
     },
+    {
+      path: '/Tier2Main',
+      name: 'Tier2Main',
+      component: () => import(/* webpackChunkName: "about" */ './views/Tier2Main.vue'),
+    },
 
   ],
 });
