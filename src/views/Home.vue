@@ -11,7 +11,7 @@
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
+import CreateNewCustomer from '@/components/CreateNewCustomer.vue';
 import AdditionalBankAccCust from '@/components/AdditionalBankAccCust.vue';
 import ModifyInfoByCust from '@/components/ModifyInfoByCust.vue';
 import ModifyCustInfoByTier2 from '@/components/ModifyCustInfoByTier2.vue';
@@ -21,12 +21,11 @@ import ModifyEmployeeInfo from '@/components/ModifyEmployeeInfo.vue';
 export default {
   name: 'home',
   components: {
-    'form1':HelloWorld,
+    'form1':CreateNewCustomer,
     'form2':AdditionalBankAccCust,
     'form3':ModifyInfoByCust,
     'form4':ModifyCustInfoByTier2,
     'form5':CreateNewEmployee,
      'form6':ModifyEmployeeInfo,
   },
-};
-</script>
+};</script>

@@ -89,7 +89,7 @@
 
 <script>
 export default {
-    name: 'HelloWorld',
+    name: 'CreateNewCustomer',
     /*methods: {
       alertMsg: function (event) {
         alert('Do you want to delete this Account?');
