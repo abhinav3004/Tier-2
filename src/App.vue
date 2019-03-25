@@ -5,6 +5,7 @@
       <router-link to="/manager">Tier3</router-link>!-->
     </div>
     <router-view/>
+    
   </div>
 </template>
 
@@ -15,6 +16,33 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+form {
+  width: 50%;
+  height: 100%;
+  border-left: 10px solid #000;
+  border-right: 10px solid #FFF;
+  padding: 10px 0;
+  margin: 50px auto;
+  background-image: -webkit-linear-gradient(left, #000 50%, #FFF 50%), -webkit-linear-gradient(left, #000 50%, #FFF 50%);
+  background-image: -moz-linear-gradient(left, #000 50%, #FFF 50%), -moz-linear-gradient(left, #000 50%, #FFF 50%);
+  background-image: -o-linear-gradient(left, #000 50%, #FFF 50%), -o-linear-gradient(left, #000 50%, #FFF 50%);
+  background-image: linear-gradient(to right, #000 50%, #FFF 50%), linear-gradient(to right, #000 50%, #FFF 50%);
+  background-position: 0 0, 0 100% ;
+  background-repeat: no-repeat;
+  background-size: 100% 10px;
+}
+div {
+  background-image: -webkit-linear-gradient(left, #FFF 50%, #afdcc9 50%);
+  background-image: -moz-linear-gradient(left, #FFF 50%, #afdcc9 50%);
+  background-image: -o-linear-gradient(left, #FFF 50%, #afdcc9 50%);
+  background-image: linear-gradient(to right, #FFF 50%, #afdcc9 50%);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+   box-sizing: border-box;
 }
 #nav {
   padding: 30px;

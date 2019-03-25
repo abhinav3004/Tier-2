@@ -38,6 +38,12 @@
         </tr>
       </tbody>
 </table>
+<form>
+  <label>FirstName:</label><br>
+  <input type="text">
+  <input type="radio">
+  <input type="checkbox">
+</form>
   </div>
 </template>
 
