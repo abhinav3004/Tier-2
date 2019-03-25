@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Home from './views/Home.vue';
+import Transactionforms from './views/Transactionforms.vue'
 // import AccountDetails from './views/AccountDetails.vue';
 
 Vue.use(Router);
@@ -13,6 +14,11 @@ export default new Router({
       path: '/',
       name: 'home',
       component: Home,
+    },
+    {
+      path: '/transactionforms',
+      name: 'Transactionforms',
+      component: Transactionforms,
     },
     {
       path: '/accountsCustomers',
