@@ -1,8 +1,10 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Home from './views/Home.vue';
-import Transactionforms from './views/Transactionforms.vue'
+import Transactionforms from './views/Transactionforms.vue';
+import ContactModificationRequest from './views/ContactModificationRequest.vue';
 // import AccountDetails from './views/AccountDetails.vue';
+import ScheduleAppointment from './views/ScheduleAppointment.vue';
 
 Vue.use(Router);
 
@@ -34,6 +36,16 @@ export default new Router({
       path: '/manageraccountdetails',
       name: 'manageraccountdetails',
       component: () => import(/* webpackChunkName: "about" */ './views/ManagerDetails.vue'),
+    },
+    {
+      path: '/modifycontact',
+      name: 'modifycontact',
+      component: ContactModificationRequest,
+    },
+    {
+      path: '/schedule',
+      name: 'schedule',
+      component: ScheduleAppointment,
     },
     {
       path: '/manager',
